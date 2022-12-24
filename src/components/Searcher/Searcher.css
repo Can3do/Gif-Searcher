@@ -1,0 +1,37 @@
+.searcher-container {
+	display: flex;
+}
+
+.searcher__button {
+	border: none;
+	padding-inline: 1rem;
+	cursor: pointer;
+	transition: 0.2s;
+	background-color: #f7f7f7;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+
+.searcher__button:hover {
+	background-color: #ba68c8;
+	color: #fff;
+}
+
+.searcher {
+	border: none;
+	outline: none;
+	padding: 0.5rem 1rem;
+	font-size: 0.9rem;
+	background-color: #626262;
+	position: relative;
+	color: #fff;
+	border-bottom: 2px solid transparent;
+}
+
+.searcher::placeholder {
+	color: #fff;
+}
+
+.searcher:focus {
+	border-color: #ba68c8;
+}
